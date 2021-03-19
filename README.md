@@ -24,10 +24,11 @@
 4. Restart the shell and verify `echo $SHELL` prints `/usr/bin/zsh`
 5. Install oh-my-zsh with `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 6. Edit .zshrc file:
-    * replace the old value: `ZSH_THEME="agnoster"` ([more themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes))
+    * replace the old value: `ZSH_THEME="agnoster"`
     * add this to remove username@host from prompt: `DEFAULT_USER="$USER"`
 
 ## Additional resources
+* More [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 * Further [customization](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization)
 * Bookmark [oh-my-zsh cheatsheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet) :)
 * Have a look at [optional oh-my-zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
